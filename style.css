@@ -3,7 +3,14 @@
     text-align: center;
     background-color:bisque;
     border-style: groove;
+    border-color: darkblue;
     border-width: 5px;
+}
+
+body{
+    background-color: lightgray;
+    margin: 5px;
+    padding: 0;
 }
 
 #titulosite{
@@ -33,6 +40,7 @@
     padding: 15px 20px;
     margin-bottom: 30px;
 }
+
 .title{
     font-size: large;
     text-align: center;
@@ -40,4 +48,84 @@
 
 .informacao{
     text-align: center;
+    color: indigo;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.tabela{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px dashed red;
+}
+
+th, td{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.sites{
+    width: fit-content;
+    background-color: yellow;
+    margin: 20px auto;
+    padding: 2px 120px;
+}
+
+.sites a{
+    color: darkred;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sites ul{
+    padding-left: 20px;
+}
+
+.sites li{
+    margin-bottom: 2px;
+}
+
+.rodape{
+    background-color: bisque;
+    font-family: "Comic Sans MS";
+    font-size: 15pt;
+    text-align: center;
+    bottom: 100px;
+}
+
+.rodape h1{
+    position: relative;
+    top: 70px;
+}
+
+.rodape img{
+    width: 130px;
+    height: 130px;
+    object-fit: contain; 
+    text-align: center;
+}
+
+#imagemhtml{
+    position: relative;
+    bottom: 40px;
+    right: 750px;
+}
+
+#imagemcss{
+    position: relative;
+    bottom: 40px;
+    left: 750px;
 }
