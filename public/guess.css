@@ -1,0 +1,45 @@
+/* Cor do fundo da página */
+body {
+    background-color: #dbeafe;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    /* Centralização dos elementos da página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa {
+    background-color: #ffffff;
+    color: #111111;
+    text-align: center;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 420px;
+}
+
+#caixa a {
+    color: inherit;
+}
+
+input {
+    font-size: 18px;
+    padding: 8px;
+    width: 160px;
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    padding: 9px 16px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+#mensagem {
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 28px;
+}

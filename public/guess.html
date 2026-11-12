@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Adivinhação</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="guess.css">
+    </head>
+
+    <body>
+        <main id="caixa">
+            <h1>Jogo da Adivinhação</h1>
+            <p>Estou pensando em um número de 0 a 99. Consegue adivinhar?</p>
+
+            <input type="number" id="palpite" min="0" max="99" placeholder="Digite um número">
+            <button id="botao-chutar" onclick="verificar()">Chutar</button>
+
+            <p id="mensagem"></p>
+            <p id="tentativas">Tentativas: 0</p>
+
+            <button id="botao-reiniciar" onclick="reiniciar()">Jogar de novo</button>
+            <p><a href="projects.html">Voltar para projetos</a></p>
+        </main>
+
+        <script src="guess.js"></script>
+    </body>
+
+</html>

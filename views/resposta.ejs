@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title><%= titulo %></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/login.css">
+    </head>
+
+    <body>
+        <main class="cartao <%= sucesso ? 'sucesso' : 'erro' %>">
+            <h1><%= titulo %></h1>
+            <p><%= mensagem %></p>
+
+            <% if (nome) { %>
+                <p>Olá, <strong><%= nome %></strong>!</p>
+            <% } %>
+
+            <p><a href="<%= link %>"><%= textoLink %></a></p>
+            <p><a href="/">Voltar para projetos</a></p>
+        </main>
+    </body>
+
+</html>

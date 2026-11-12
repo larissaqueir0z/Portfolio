@@ -1,0 +1,63 @@
+/* Usado por cadastro.html, login.html e views/resposta.ejs */
+
+/* Cor do fundo */
+body {
+    background-color: #ede9fe;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    /* Centralização dos elementos da página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+button {
+    margin-top: 18px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Página de resposta (resposta.ejs) */
+.sucesso {
+    border-top: 8px solid #16a34a;
+}
+
+.erro {
+    border-top: 8px solid #dc2626;
+}
+
+.sucesso h1 {
+    color: #15803d;
+}
+
+.erro h1 {
+    color: #b91c1c;
+}
