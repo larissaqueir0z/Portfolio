@@ -1,6 +1,4 @@
-// Gera um número aleatório de 0 a 99.
-// Math.random() devolve um valor em [0, 1) (0 incluso e 1 não incluso).
-// Multiplicando por 100 fica em [0, 100) e Math.floor() arredonda para baixo (0 a 99).
+
 let numeroSecreto = Math.floor(Math.random() * 100);
 let tentativas = 0;
 
@@ -37,7 +35,7 @@ function verificar() {
     campo.select();
 }
 
-// Altera a cor de fundo da caixa (vermelho = erro, verde = acerto)
+
 function pintar(cor) {
     const caixa = document.getElementById("caixa");
     caixa.style.setProperty("background-color", cor);
@@ -58,7 +56,7 @@ function reiniciar() {
     document.getElementById("palpite").focus();
 }
 
-// Permite chutar apertando Enter
+
 document.getElementById("palpite").addEventListener("keydown", function (evento) {
     if (evento.key === "Enter") {
         verificar();

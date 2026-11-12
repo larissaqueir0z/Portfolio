@@ -1,12 +1,10 @@
-/* Usado por cadastro.html, login.html e views/resposta.ejs */
 
-/* Cor do fundo */
 body {
     background-color: #ede9fe;
     font-family: Arial, sans-serif;
     margin: 0;
     min-height: 100vh;
-    /* Centralização dos elementos da página */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +43,7 @@ button {
     cursor: pointer;
 }
 
-/* Página de resposta (resposta.ejs) */
+
 .sucesso {
     border-top: 8px solid #16a34a;
 }

@@ -1,10 +1,9 @@
-/* Cor do fundo da página */
 body {
     background-color: #dcfce7;
     font-family: Arial, sans-serif;
     margin: 0;
     min-height: 100vh;
-    /* Centralização dos elementos da página */
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +11,6 @@ body {
     text-align: center;
 }
 
-/* outline em vez de border para não deslocar a posição do mouse no canvas */
 canvas {
     background-color: #ffffff;
     outline: 2px solid #000000;
